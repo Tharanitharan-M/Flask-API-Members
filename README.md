@@ -2,9 +2,8 @@
 
 A Flask-based API for managing member information with basic authentication. Perform CRUD operations on member records stored in a database. Protected routes ensure secure access to data. :closed_lock_with_key:
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://www.python.org/)
-[![Flask Version](https://img.shields.io/badge/flask-2.1.1-blue)](https://palletsprojects.com/p/flask/)
+[![Python Version](https://img.shields.io/badge/python-3.9.0-blue)](https://www.python.org/)
+[![Flask Version](https://img.shields.io/badge/flask-2.3.2-blue)](https://palletsprojects.com/p/flask/)
 
 ## Features :rocket:
 
