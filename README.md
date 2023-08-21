@@ -30,4 +30,4 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ---
 
-Made with :heart: by [Your Name](https://github.com/yourusername) :wave:
+Made with :heart: by [Tharanitharan M](https://github.com/Tharanitharan-M) :wave:
