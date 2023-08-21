@@ -14,9 +14,9 @@ A Flask-based API for managing member information with basic authentication. Per
 - Delete a member.
 - Basic authentication for secure API access.
 
-## Installation :computer:
+## Demo :computer:
 
-1. Clone the repository: `git clone https://github.com/Tharanitharan-M/Flask-API-Members`
+Check out the live demo of this API hosted on PythonAnywhere: [Demo Link](https://tharanitharan.pythonanywhere.com/)
 
 ## Usage :hammer_and_wrench:
 
