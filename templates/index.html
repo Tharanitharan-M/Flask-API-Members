@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member Management API Demo</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Member Management API</h1>
+      <p>
+        Welcome to the Member Management API demo page. This API allows you to
+        manage member information securely.
+      </p>
+
+      <h2>Getting Started</h2>
+      <p>To use this API, follow these steps:</p>
+      <ol>
+        <li>
+          Access the API using the base URL:
+          <code>https://tharanitharan.pythonanywhere.com/</code>
+        </li>
+        <li>
+          Use an HTTP client like
+          <a href="https://www.postman.com/" target="_blank">Postman</a> or
+          <a href="https://curl.se/" target="_blank">cURL</a> to make requests.
+        </li>
+        <li>
+          For protected endpoints, use the following credentials:
+          <ul>
+            <li>Username: <code>admin</code></li>
+            <li>Password: <code>password</code></li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2>Available Endpoints</h2>
+      <ul>
+        <li><code>GET /member</code> - Get a list of all members.</li>
+        <li>
+          <code>GET /member/&lt;member_id&gt;</code> - Get details about a
+          specific member.
+        </li>
+        <li><code>POST /member</code> - Add a new member to the database.</li>
+        <li>
+          <code>PUT /member/&lt;member_id&gt;</code> - Edit information of a
+          member.
+        </li>
+        <li>
+          <code>PATCH /member/&lt;member_id&gt;</code> - Partially edit
+          information of a member.
+        </li>
+        <li>
+          <code>DELETE /member/&lt;member_id&gt;</code> - Delete a member.
+        </li>
+      </ul>
+
+      <h2>Example Request</h2>
+      <p>Here's an example of how to retrieve a list of all members:</p>
+      <pre>
+            <code>
+                GET /member
+                Authorization: Basic YWRtaW46cGFzc3dvcmQ=
+            </code>
+        </pre>
+      <p>
+        Remember to replace <code>YWRtaW46cGFzc3dvcmQ=</code> with the actual
+        Base64-encoded credentials.
+      </p>
+    </div>
+  </body>
+</html>

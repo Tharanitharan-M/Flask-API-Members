@@ -1,4 +1,4 @@
-from flask import Flask, g, request, jsonify
+from flask import Flask, g, request, jsonify, render_template
 from database import get_db
 from functools import wraps
 
@@ -8,6 +8,10 @@ app = Flask(__name__)
 api_username = 'admin'
 api_password = 'password'
 
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 def protected(f):
     """
